@@ -98,13 +98,13 @@ variable "nsg" {
 variable "user" {
   type        = string
   description = "User Name to connect on the VM."
-  default     = "demo"
+  default     = "[MY USER]"
 }
 
 variable "password" {
   type        = string
   description = "password to connect on the VM."
-  default     = "demo@123"
+  default     = "[MY PASSWORD]"
 }
 
 variable "location" {
